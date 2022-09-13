@@ -1,0 +1,208 @@
+body{
+    background-color: #1d1d1f;
+}
+
+#textComment{
+    padding-bottom: 250px;
+    font-size: 22px;
+    background-color: #313133;
+    height: 500px;
+    width: 491px;
+    color: #d3d1da;
+    resize: none;
+    border-color: #313133;
+    outline: none;
+    padding: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 5px;
+}
+
+#square {
+	width: 546px;
+    height: 74px;
+}
+#square2 {
+	width: 546px;
+    height: 74px;
+    margin: -5px 0px;
+}
+#butsave {
+    width: 118px;
+    height: 31px;
+    border-radius: 4px;
+    background: #4d4c53;
+    margin: -4px;
+    top: 666px;
+    left: 385px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    color: #313133;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#butsave2 {
+    width: 121px;
+    height: 31px;
+    border-radius: 4px;
+    background: #4d4c53;
+    margin: -4px;
+    top: 644px;
+    left: 407px;
+    position: absolute;
+}
+#butsave:hover {
+    background: #58575f;
+    color: #3d3d3f;
+    cursor: pointer;
+}
+#butload {
+    width: 118px;
+    height: 31px;
+    border-radius: 4px;
+    background: #4d4c53;
+    margin: -4px;
+    top: 666px;
+    left: 258px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    color: #313133;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#butload:hover {
+    background: #58575f;
+    color: #3d3d3f;
+    cursor: pointer;
+}
+#butdel {
+    width: 56px;
+    height: 31px;
+    border-radius: 4px;
+    background: #4d4c53;
+    margin: -4px;
+    top: 666px;
+    left: 52px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    color: #313133;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#butdel:hover {
+    background: #58575f;
+    color: #3d3d3f;
+    cursor: pointer;
+}
+
+.cont{
+    width: 571px;
+    height: 571px;
+    margin: 92px auto;
+    position: relative;
+}
+#page1{
+    background: url(page.png);
+    display: block;
+    width: 73px;
+    height: 38px;
+    border-radius: 4px;
+    margin: -4px;
+    top: -6px;
+    left: 55px;
+    position: absolute;
+}
+#page1:hover{
+    transform: translate(0,3px);
+    background: url(page1.png);
+    width: 73px;
+    height: 38px;
+}
+#page2{
+    background: url(page.png);
+    display: block;
+    width: 73px;
+    height: 38px;
+    border-radius: 4px;
+    margin: -4px;
+    top: -6px;
+    left: 138px;
+    position: absolute;
+}
+#page2:hover{
+    transform: translate(0,3px);
+    background: url(page2.png);
+    width: 73px;
+    height: 38px;
+}
+#page3{
+    background: url(page.png);
+    display: block;
+    width: 73px;
+    height: 38px;
+    border-radius: 4px;
+    margin: -4px;
+    top: -6px;
+    left: 221px;
+    position: absolute;
+}
+#page3:hover{
+    transform: translate(0,3px);
+    background: url(page3.png);
+    width: 73px;
+    height: 38px;
+}
+#image{
+    width: 10%;
+    border-radius: 4px;
+    top: 514px;
+    left: 470px;
+    position: absolute;
+}
+
+#textComment::-webkit-scrollbar {
+    width: 0;
+  }
+  #linc{
+    position: absolute;
+    left: 489px;
+    top: 25px;
+    color: #2a2a2c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+  }
+  #linc:hover {
+    color: #646468;
+    cursor: pointer;
+}
+  #butLinc {
+    width: 61px;
+    height: 26px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #4d4c53;
+    margin: -4px;
+    top: 27px;
+    left: 331px;
+    position: absolute;
+    line-height: 26px;
+    text-align: center;
+    color: #313133;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#butLinc:hover {
+    background: #58575f;
+    color: #3d3d3f;
+    cursor: pointer;
+}
+#implinc{
+    position: absolute;
+    left: 389px;
+    top: 24px;
+    color: #d3d1da;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    border-width: 0px;
+    width: 89px;
+    outline:none;
+    background-color: #2a2a2c;
+  }
